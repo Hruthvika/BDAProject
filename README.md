@@ -39,7 +39,7 @@ Invalid entries such as `"A"`, `"AB"`, `"MP"`, and missing values are replaced w
    ```python
    from pyspark.sql import SparkSession
    spark = SparkSession.builder.appName("Test").getOrCreate()
-```
+   ```
 
 2. **Data Loading**
 
